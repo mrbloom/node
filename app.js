@@ -1,6 +1,9 @@
 const express = require("express")
+const proccess = require("process")
+
 const app = express()
 const port = proccess.env.port || 3000
+
 app.listen(3000,()=>{
     console.log("ddddd")
 })
