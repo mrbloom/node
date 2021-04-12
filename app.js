@@ -10,5 +10,5 @@ app.listen(port,()=>{
 })
 
 app.get('/',(req,res)=>{
-    res.send("Yi asw")
+    res.send("Yi asw bimba")
 })
